@@ -13,6 +13,9 @@
 		663361FC29763F3F004F4AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663361FA29763F3F004F4AC8 /* Main.storyboard */; };
 		663361FE29763F41004F4AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663361FD29763F41004F4AC8 /* Assets.xcassets */; };
 		6633620129763F41004F4AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663361FF29763F41004F4AC8 /* LaunchScreen.storyboard */; };
+		66336209297648A9004F4AC8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66336208297648A9004F4AC8 /* KeyboardViewController.swift */; };
+		6633620B297648E8004F4AC8 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633620A297648E8004F4AC8 /* BoardViewController.swift */; };
+		6633620D297655A5004F4AC8 /* KeyCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6633620C297655A5004F4AC8 /* KeyCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		663361FD29763F41004F4AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6633620029763F41004F4AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6633620229763F41004F4AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66336208297648A9004F4AC8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		6633620A297648E8004F4AC8 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		6633620C297655A5004F4AC8 /* KeyCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				663361FD29763F41004F4AC8 /* Assets.xcassets */,
 				663361FF29763F41004F4AC8 /* LaunchScreen.storyboard */,
 				6633620229763F41004F4AC8 /* Info.plist */,
+				66336208297648A9004F4AC8 /* KeyboardViewController.swift */,
+				6633620A297648E8004F4AC8 /* BoardViewController.swift */,
+				6633620C297655A5004F4AC8 /* KeyCVCell.swift */,
 			);
 			path = wordleDev;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			files = (
 				663361F929763F3F004F4AC8 /* ViewController.swift in Sources */,
 				663361F529763F3F004F4AC8 /* AppDelegate.swift in Sources */,
+				6633620D297655A5004F4AC8 /* KeyCVCell.swift in Sources */,
 				663361F729763F3F004F4AC8 /* SceneDelegate.swift in Sources */,
+				66336209297648A9004F4AC8 /* KeyboardViewController.swift in Sources */,
+				6633620B297648E8004F4AC8 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
